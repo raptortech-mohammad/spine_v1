@@ -77,7 +77,7 @@ const Services: React.FC = () => {
                 {service.features.map((feature, index) => (
                   <li key={index} className="flex items-start">
                     <div className="flex-shrink-0 mr-2">
-                      <Check size={16} className="text-brandRed" />
+                      <Check size={16} className="text-primary" />
                     </div>
                     <span className="text-gray-700 text-sm sm:text-base">
                       {feature}
