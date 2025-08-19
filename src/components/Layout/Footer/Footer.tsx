@@ -1,5 +1,5 @@
 "use client";
-import { Clock, Mail, Phone } from "lucide-react";
+import { Clock, Mail } from "lucide-react";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -17,14 +17,8 @@ const Footer: React.FC = () => {
             </p>
             <div className="space-y-3">
               <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-primary" />
-                <span className="text-sm text-white/70">(+880) 15000-00000</span>
-              </div>
-              <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-sm text-white/70">
-                  contact@spine-comms.com
-                </span>
+                <span className="text-sm text-white/70">info@spinebd.org</span>
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-primary" />
@@ -131,8 +125,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-white/30 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-white/70 mb-4 md:mb-0">
-              ©{currentYear} SPINE Political Communications. All rights
-              reserved.
+              ©{currentYear} SPINE.All rights reserved.
             </div>
             <div className="flex items-center gap-6 text-sm text-white/70">
               <span>Confidential</span>
