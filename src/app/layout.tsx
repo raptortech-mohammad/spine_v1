@@ -18,11 +18,23 @@ const gilker = localFont({
 export const metadata: Metadata = {
   title: "SPINE - Strategic Political Communications",
   description: "Spine web application.",
-  keywords: ["spine", "web app", "nextjs", "react"],
+  keywords: [
+    "spine",
+    "spine bd",
+    "spinebd org",
+    "spine-bd",
+    "spinebd",
+    "spine_bd.org",
+    "spine-bd.org",
+    "spineBd.org",
+    "spineBD.org",
+    "spinedb.org",
+    "spinebd.org",
+  ],
   openGraph: {
     title: "SPINE - Strategic Political Communications",
     description: "Spine web application.",
-    url: "https://spine.com",
+    url: "https://spinebd.org",
     siteName: "Spine",
     images: [
       {
